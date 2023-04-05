@@ -18,6 +18,10 @@
     "type": "git",
     "url": "git+https://github.com/justorez/find-in-files.git"
   },
+  "files": [
+		"bin.js",
+		"index.js"
+	],
   "keywords": [
     "find",
     "async",
