@@ -1,0 +1,39 @@
+{
+  "name": "@orez/jfind",
+  "version": "1.0.0",
+  "description": "Fast search in multiple files.",
+  "type": "module",
+  "exports": "./index.js",
+  "bin": {
+    "jfind": "bin.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justorez/find-in-files.git"
+  },
+  "keywords": [
+    "find",
+    "async",
+    "files",
+    "find-in-files"
+  ],
+  "author": "justorez",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/justorez/find-in-files/issues"
+  },
+  "homepage": "https://github.com/justorez/find-in-files#readme",
+  "dependencies": {
+    "find": "^0.3.0",
+    "glob-to-regexp": "^0.4.1",
+    "minimist": "^1.2.8",
+    "p-limit": "^4.0.0"
+  }
+}
